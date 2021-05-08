@@ -1,0 +1,68 @@
+@use "var.scss";
+
+* {
+  font-family: var.$secondary-font;
+}
+
+h1, h2 {
+  font-family: var.$primary-font;
+}
+
+section {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    height: 100vh;
+    margin-left: 5vw;
+  }
+}
+
+button {
+  background-color: transparent;
+  border: none
+}
+
+.btn {
+  font-size: 1rem;
+  font-weight: 100;
+  color: var.$primary;
+  padding: 5px 20px;
+  border: 1px solid var.$primary;
+  border-radius: 8px;
+  background-color: transparent;
+  &:hover {
+    font-weight: 300;
+  }
+}
+
+.dark-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 5%;
+  height: 100vh;
+  padding-bottom: 10px;
+  border-left: 1px solid var.$primary;
+
+  a{
+    text-decoration: none;
+    margin: 10px;
+
+    i {
+      color: var.$secondary;
+    }
+  }
+}
+
+@media screen and (var.$max-res-tablet){
+  .dark-footer {
+    i {
+      color: var.$primary;
+    }
+  }
+}
