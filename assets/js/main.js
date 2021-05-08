@@ -1,5 +1,5 @@
 
-// Close toggler menu
+ /* Close toggler menu */
 
 function closeMenu() {
     let checkbox =  document.getElementById("checkbox");
@@ -79,14 +79,14 @@ new Glider(document.querySelector('.glider'), {
 
 /* function open details testimonials */
 
-function openDetail() {
-    let cards = document.getElementById('detail')
+function openDetail(id) {
+    let cards = document.getElementById(id)
     cards.setAttribute('class', 'detail-cards')
 }
 
 /* function close details testimonials */
 
-function closeDetail() {
-    let card = document.getElementById('detail')
+function closeDetail(id) {
+    let card = document.getElementById(id)
     card.setAttribute('class', 'close-details')
 }

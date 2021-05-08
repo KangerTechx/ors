@@ -15,16 +15,18 @@
     <!--  Links css  -->
     <link rel="stylesheet" href="assets/css/minireset.css">
     <link rel="stylesheet" href="assets/css/main.css">
+
+    <link rel="icon" href="assets/img/head-logo.svg">
     <title>Our Ring Story</title>
 </head>
 <body>
-<header>
-    <div class="line"></div>
+<header id="header">
+    <div class="line" id="line"></div>
     <div class="content">
         <a href="?page=home"><img src="assets/img/logo.svg" alt="logo" class="primary-logo"></a>
     </div>
 
-    <div class="menu-wrap content">
+    <div class="menu-wrap content" id="menu">
         <input type="checkbox" class="toggler" id="checkbox">
         <div class="hamburger"><div></div></div>
 
@@ -32,7 +34,7 @@
             <h2>Menu</h2>
             <div class="links-items">
                 <div>
-                    <ul>
+                    <ul id="ul">
                         <li><a href="?page=about" onclick="closeMenu()">About</a></li>
                         <li><a href="?page=service" onclick="closeMenu()">Service</a></li>
                         <li><a href="?page=gallery" onclick="closeMenu()">Gallery</a></li>

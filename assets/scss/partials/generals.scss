@@ -20,7 +20,11 @@ section {
 
 button {
   background-color: transparent;
-  border: none
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .btn {
@@ -33,36 +37,5 @@ button {
   background-color: transparent;
   &:hover {
     font-weight: 300;
-  }
-}
-
-.dark-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: 5%;
-  height: 100vh;
-  padding-bottom: 10px;
-  border-left: 1px solid var.$primary;
-
-  a{
-    text-decoration: none;
-    margin: 10px;
-
-    i {
-      color: var.$secondary;
-    }
-  }
-}
-
-@media screen and (var.$max-res-tablet){
-  .dark-footer {
-    i {
-      color: var.$primary;
-    }
   }
 }
