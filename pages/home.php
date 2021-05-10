@@ -1,4 +1,10 @@
+
+
+<!-- Background video -->
+
 <video src="assets/img/branding.mp4" muted loop autoplay></video>
+
+<!-- Home container -->
 
 <section class="home">
     <div class="container">
@@ -6,15 +12,18 @@
             <div>
                 <h1>Our Ring Story</h1>
                 <p>When your dream wedding becomes a reality</p>
-                <a href="?page=service"><button class="btn">Start to dream</button></a>
+                <a href="?page=service" class="btn">Start to dream</a>
             </div>
         </div>
+
+        <!--  Button Carousel -->
         <div class="testimonial">
             <button onclick="showCarousel()" class="btn-show">
                 <i id="arrowRotation" class="fas fa-angle-up"></i>
                 <span>Our Testimonials</span>
             </button>
 
+            <!-- Carousel testimonial  -->
             <div class="carousels glider-content" id="showCarousel">
                <div class="carousels-content">
                    <button>
@@ -73,7 +82,7 @@
                 <h2>John & Jane</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ultrices massa enim. Blandit pretium vulputate nec et fermentum. Elementum, sed sem nec non elementum tellus est in. Rhoncus, nunc, egestas suspendisse id nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ultrices massa enim. Blandit pretium vulputate nec et fermentum. Elementum, sed sem nec non elementum tellus est in. Rhoncus,</p>
                 <i class="fas fa-map-marker-alt"><span>Liège</span></i>
-                <i class="fas fa-calendar-alt"><span>20-01-2021</span></i>
+                <i class="fas fa-calendar-alt"><span>08-05-2021</span></i>
             </div>
         </div>
     </div>
@@ -100,8 +109,8 @@
             <div class="details-container">
                 <h2>Marc & Jess</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ultrices massa enim. Blandit pretium vulputate nec et fermentum. Elementum, sed sem nec non elementum tellus est in. Rhoncus, nunc, egestas suspendisse id nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ultrices massa enim. Blandit pretium vulputate nec et fermentum. Elementum, sed sem nec non elementum tellus est in. Rhoncus,</p>
-                <i class="fas fa-map-marker-alt"><span>Liège</span></i>
-                <i class="fas fa-calendar-alt"><span>20-01-2021</span></i>
+                <i class="fas fa-map-marker-alt"><span>Namur</span></i>
+                <i class="fas fa-calendar-alt"><span>16-03-2021</span></i>
             </div>
         </div>
     </div>
@@ -128,8 +137,8 @@
             <div class="details-container">
                 <h2>Paul & Sylvie</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ultrices massa enim. Blandit pretium vulputate nec et fermentum. Elementum, sed sem nec non elementum tellus est in. Rhoncus, nunc, egestas suspendisse id nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ultrices massa enim. Blandit pretium vulputate nec et fermentum. Elementum, sed sem nec non elementum tellus est in. Rhoncus,</p>
-                <i class="fas fa-map-marker-alt"><span>Liège</span></i>
-                <i class="fas fa-calendar-alt"><span>20-01-2021</span></i>
+                <i class="fas fa-map-marker-alt"><span>Bruxelles</span></i>
+                <i class="fas fa-calendar-alt"><span>20-02-2021</span></i>
             </div>
         </div>
     </div>
@@ -156,8 +165,8 @@
             <div class="details-container">
                 <h2>Kevin & Martha</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ultrices massa enim. Blandit pretium vulputate nec et fermentum. Elementum, sed sem nec non elementum tellus est in. Rhoncus, nunc, egestas suspendisse id nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ultrices massa enim. Blandit pretium vulputate nec et fermentum. Elementum, sed sem nec non elementum tellus est in. Rhoncus,</p>
-                <i class="fas fa-map-marker-alt"><span>Liège</span></i>
-                <i class="fas fa-calendar-alt"><span>20-01-2021</span></i>
+                <i class="fas fa-map-marker-alt"><span>Oostende</span></i>
+                <i class="fas fa-calendar-alt"><span>19-12-2020</span></i>
             </div>
         </div>
     </div>
@@ -184,8 +193,8 @@
             <div class="details-container">
                 <h2>Jeffray & Sabrina</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ultrices massa enim. Blandit pretium vulputate nec et fermentum. Elementum, sed sem nec non elementum tellus est in. Rhoncus, nunc, egestas suspendisse id nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ultrices massa enim. Blandit pretium vulputate nec et fermentum. Elementum, sed sem nec non elementum tellus est in. Rhoncus,</p>
-                <i class="fas fa-map-marker-alt"><span>Liège</span></i>
-                <i class="fas fa-calendar-alt"><span>20-01-2021</span></i>
+                <i class="fas fa-map-marker-alt"><span>Gembloux</span></i>
+                <i class="fas fa-calendar-alt"><span>23-11-2020</span></i>
             </div>
         </div>
     </div>

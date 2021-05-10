@@ -4,7 +4,7 @@ $primary :      #fff;
 $secondary:     #000;
 $darkOpacity:   rgba(0, 0, 0, 0.25);
 $dark-bg:       #181818;
-$light-grey:    #989898;
+$light-grey: #c3c3c3;
 
 
 // Variables font
@@ -15,7 +15,7 @@ $secondary-font:  'Roboto', sans-serif;
 
 // Variables responsive
 
-$res-phone:         'maw-width: 575px';
+$res-phone:         'max-width: 575px';
 
 $res-tablet:        'min-width: 576px';
 $max-res-tablet:    'max-width: 768px';

@@ -54,11 +54,14 @@
         margin: 20px 0;
       }
 
-      button {
+      a {
         text-transform: uppercase;
+        text-decoration: none;
+        color: var.$primary;
       }
+
     }
-    @media screen and (min-width: 1440px){
+    @media screen and (min-width: 1441px){
       div {
         width: 30%;
         h1 {
@@ -69,10 +72,9 @@
         }
       }
     }
-    @media screen and (min-width: 1025px) and (max-width: 1439px) {
+    @media screen and (min-width: 1025px) and (max-width: 1440px) {
       div {
-        max-width: 40%;
-        min-width: 30%;
+        width: 40%;
       }
       h1 {
         font-size: 6vw;

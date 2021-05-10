@@ -33,14 +33,14 @@
         <div class="menu">
             <h2>Menu</h2>
             <div class="links-items">
-                <div>
+                <nav>
                     <ul id="ul">
                         <li><a href="?page=about" onclick="closeMenu()">About</a></li>
                         <li><a href="?page=service" onclick="closeMenu()">Service</a></li>
                         <li><a href="?page=gallery" onclick="closeMenu()">Gallery</a></li>
                         <li><a href="?page=contact" onclick="closeMenu()">Contact</a></li>
                     </ul>
-                </div>
+                </nav>
             </div>
             <a href="?page=home" onclick="closeMenu()" class="logo"><img src="assets/img/logo.svg" alt="logo"></a>
             <div class="footer" id="footer">

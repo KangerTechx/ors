@@ -21,11 +21,22 @@ if ($_GET['page'] == 'about') {
 
 require_once 'partials/footer.php';
 
+// --------------------------------------------------------------------
 
 /* Pour lancer la compilation scss
 sass --watch assets/scss/main.scss assets/css/main.css
 
 -- Pour stopper la compilation scss
 Press Ctrl-C to stop.
+*/
 
+// --------------------------------------------------------------------
+
+/* Commandes Git
+
+git status
+git add *           -> ajouter les fichier modifié avantr le commit
+git commit -m "mon message de commit"
+
+git log             -> permet de voir tous les commit
 */
