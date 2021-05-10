@@ -1,9 +1,11 @@
-
+<span id="about"></span>
 <!-- Banner -->
 <div class="banner">
     <ul>
-        <li><a href="#about">About</a></li>|
-        <li><a href="#team">Team</a></li>|
+        <li><a href="#about">About</a></li>
+        <li>|</li>
+        <li><a href="#team">Team</a></li>
+        <li>|</li>
         <li><a href="#values">Our Values</a></li>
     </ul>
 </div>
@@ -11,7 +13,7 @@
 
     <!-- About us -->
 
-    <section class="about" id="about">
+    <section class="about">
         <div class="about-content">
             <h2>About Us</h2>
             <div class="resp-about">
@@ -21,6 +23,7 @@
                 <div class="about-detail">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ultrices massa enim. Blandit pretium vulputate nec et fermentum. Elementum, sed sem nec non elementum tellus est in. Rhoncus, nunc, egestas suspendisse id nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ultrices massa enim. Blandit pretium vulputate nec et fermentum. Elementum, sed sem nec non elementum tellus est in. Rhoncus.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ultrices massa enim. Blandit pretium vulputate nec et fermentum. Elementum, sed sem nec non elementum tellus est in. Rhoncus, nunc, egestas suspendisse id nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ultrices massa enim. Blandit pretium vulputate nec et fermentum. Elementum, sed sem nec non elementum tellus est in. Rhoncus.</p>
+                    <span id="team"></span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ultrices massa enim. Blandit pretium vulputate nec et fermentum.</p>
                 </div>
             </div>
@@ -28,7 +31,7 @@
     </section>
 
     <!-- Team Section -->
-    <section class="team" id="team">
+    <section class="team" >
         <h3>Our Team</h3>
         <div class="team-container">
 
@@ -114,6 +117,7 @@
                         <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
+                <span id="values"></span>
             </div>
 
         </div>
@@ -122,7 +126,7 @@
 
     <!-- Our values Section -->
 
-    <section class="values"id="values">
+    <section class="values">
         <h3>Our Values</h3>
         <div class="resp-values">
             <div class="img-values">

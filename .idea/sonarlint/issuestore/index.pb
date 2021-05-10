@@ -27,3 +27,13 @@ N
 assets/scss/partials/home.scss,8\6\861f913f6015807a50b6ecb78d9549c3748571d0
 M
 assets/scss/partials/nav.scss,c\b\cb7f2cb4264954b99b7dd7e411059558dfc862e6
+I
+assets/css/glider.min.css,3\f\3f8a92e93af18f85f19d3146e9c3e0103878f6b4
+R
+"assets/scss/partials/dark-nav.scss,9\f\9f9b79861dde2fa41befd1e2de88f1ee5f295a13
+C
+assets/css/main.css,5\7\571c5f6808a15ac11d765304c218b17e31deb704
+O
+assets/scss/partials/about.scss,a\a\aac875fbc243347524c2793b1ac96a6c4fbe72f7
+Q
+!assets/scss/partials/service.scss,e\9\e92fc1069a3427da50c4bc524cde51c670a0ef0a

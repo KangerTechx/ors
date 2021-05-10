@@ -5,8 +5,9 @@
 
 .dark-header {
   display: flex;
-  background-color: transparent;
-  position: fixed;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 8px var.$primary;
+  position: sticky;
   top: 0;
   .primary-logo {
     padding-left: 20px;

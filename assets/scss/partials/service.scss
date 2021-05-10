@@ -1,0 +1,137 @@
+@use "var.scss";
+
+
+.service {
+  height: 100%;
+  background-image: -moz-linear-gradient(right, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 100%);
+  background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 100%);
+  padding-bottom: 50px;
+
+  &:before {
+    content: "";
+    position: fixed;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    background: url("../img/service.jpg") no-repeat right/cover;
+    filter:grayscale(1);
+    opacity: 50%;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+    padding-left: 10vw;
+    padding-top: 10vh;
+  }
+
+  .serv-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 5vw;
+
+    h3 {
+      width: 100%;
+      text-align: center;
+      margin: 125px 0;
+    }
+
+    .service-card {
+      margin: 25px;
+      width: 250px;
+      height: 325px;
+      p {
+        display: flex;
+        align-items: flex-end;
+        height: 100%;
+        padding: 15px;
+        background: var.$darkOpacity;
+        font-family: var.$primary-font;
+        font-size: 2.5rem;
+        color: var.$primary;
+      }
+      &:hover {
+        background-size: 115%;
+        cursor: pointer;
+
+        p {
+          opacity: 0;
+          background-color: rgba(0, 0, 0, 0);
+          transition: 0.5s ease-in-out;
+        }
+      }
+    }
+  }
+  a {
+    position: fixed;
+    bottom: 7px;
+    right: 6vw;
+    font-size: 1rem;
+    text-decoration: none;
+    color: var.$secondary;
+    i {
+      padding: 5px 7px;
+      border: 1px solid var.$secondary;
+      border-radius: 50%;
+    }
+  }
+}
+
+.service01 {
+  background: url("../img/service/service01.png") no-repeat center/cover;
+}
+.service02 {
+  background: url("../img/service/service02.png") no-repeat center/cover;
+}
+.service03 {
+  background: url("../img/service/service03.png") no-repeat center/cover;
+}
+.service04 {
+  background: url("../img/service/service04.png") no-repeat center/cover;
+}
+.service05 {
+  background: url("../img/service/service05.png") no-repeat center/cover;
+}
+.service06 {
+  background: url("../img/service/service06.png") no-repeat center/cover;
+}
+.service07 {
+  background: url("../img/service/service07.png") no-repeat center/cover;
+}
+.service08 {
+  background: url("../img/service/service08.png") no-repeat center/cover;
+}
+.service09 {
+  background: url("../img/service/service09.png") no-repeat center/cover;
+}
+.service10 {
+  background: url("../img/service/service10.png") no-repeat center/cover;
+}
+.service11 {
+  background: url("../img/service/service11.png") no-repeat center/cover;
+}
+.service12 {
+  background: url("../img/service/service12.png") no-repeat center/cover;
+}
+.service13 {
+  background: url("../img/service/service13.png") no-repeat center/cover;
+}
+.service14 {
+  background: url("../img/service/service14.png") no-repeat center/cover;
+}
+.service15 {
+  background: url("../img/service/service15.png") no-repeat center/cover;
+}
+.service16 {
+  background: url("../img/service/service16.png") no-repeat center/cover;
+}
+.service17 {
+  background: url("../img/service/service17.png") no-repeat center/cover;
+}
+.service18 {
+  background: url("../img/service/service18.png") no-repeat center/cover;
+}
+.service19 {
+  background: url("../img/service/service19.png") no-repeat center/cover;
+}

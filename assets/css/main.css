@@ -1,8 +1,9 @@
 /* header */
 .dark-header {
   display: flex;
-  background-color: transparent;
-  position: fixed;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 8px #fff;
+  position: sticky;
   top: 0;
 }
 .dark-header .primary-logo {
@@ -213,7 +214,7 @@
     width: 5%;
     height: 100vh;
     padding-bottom: 10px;
-    border-left: 1px solid #989898;
+    border-left: 1px solid #c3c3c3;
   }
   .dark-footer a {
     text-decoration: none;
@@ -229,7 +230,7 @@
     left: 0;
     width: 5%;
     height: 100vh;
-    border-right: 1px solid #989898;
+    border-right: 1px solid #c3c3c3;
   }
 
   .content {
@@ -737,7 +738,7 @@ button:hover {
   width: 90vw;
   height: 100vh;
   margin-left: 5vw;
-  border-left: 1px solid #989898;
+  border-left: 1px solid #c3c3c3;
 }
 .details-body .head {
   display: flex;
@@ -798,6 +799,12 @@ button:hover {
 .details-body .details-body-content .details-container p {
   text-align: justify;
 }
+.details-body .details-body-content .details-container i, .details-body .details-body-content .details-container a {
+  color: #181818;
+}
+.details-body .details-body-content .details-container a:hover span {
+  color: #033a7e;
+}
 @media screen and (min-width: 1025px) {
   .details-body .details-body-content .details-container h2 {
     font-size: 3.5rem;
@@ -845,6 +852,11 @@ button:hover {
     border: none;
   }
 }
+@media screen and (max-width: 575px) {
+  .details-container i, .details-container a {
+    display: none;
+  }
+}
 .index {
   z-index: 2;
 }
@@ -865,13 +877,11 @@ button:hover {
   margin-left: 5vw;
   color: #fff;
 }
-.banner ul li {
-  padding: 0 10px;
-}
 .banner ul li a {
   color: #fff;
   font-size: 1rem;
   text-decoration: none;
+  padding: 0 10px;
 }
 
 /* About us */
@@ -908,7 +918,7 @@ button:hover {
   height: 500px;
   width: 290px;
   margin: 20px;
-  box-shadow: 0 3px 5px #989898;
+  box-shadow: 0 3px 5px #c3c3c3;
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
@@ -936,7 +946,7 @@ button:hover {
 }
 .team .team-container .team-card .info-team span {
   font-size: 1.2rem;
-  color: #989898;
+  color: #c3c3c3;
   margin-left: -10px;
 }
 .team .team-container .team-card .info-team span i {
@@ -953,7 +963,7 @@ button:hover {
 .team .team-container .team-card .info-team .team-icons a {
   font-size: 1.5rem;
   text-decoration: none;
-  color: #989898;
+  color: #c3c3c3;
   padding: 0 5px;
 }
 .team .team-container .team-card .info-team .team-icons a:hover {
@@ -1076,6 +1086,152 @@ button:hover {
     width: 50%;
     margin-right: 10%;
   }
+}
+.service {
+  height: 100%;
+  background-image: -moz-linear-gradient(right, white 30%, rgba(255, 255, 255, 0) 100%);
+  background-image: -webkit-linear-gradient(left, white 30%, rgba(255, 255, 255, 0) 100%);
+  padding-bottom: 50px;
+}
+.service:before {
+  content: "";
+  position: fixed;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  background: url("../img/service.jpg") no-repeat right/cover;
+  filter: grayscale(1);
+  opacity: 50%;
+}
+.service h2 {
+  font-size: 2.8rem;
+  padding-left: 10vw;
+  padding-top: 10vh;
+}
+.service .serv-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 5vw;
+}
+.service .serv-container h3 {
+  width: 100%;
+  text-align: center;
+  margin: 125px 0;
+}
+.service .serv-container .service-card {
+  margin: 25px;
+  width: 250px;
+  height: 325px;
+}
+.service .serv-container .service-card p {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.25);
+  font-family: "Poiret One", cursive;
+  font-size: 2.5rem;
+  color: #fff;
+}
+.service .serv-container .service-card:hover {
+  background-size: 115%;
+  cursor: pointer;
+}
+.service .serv-container .service-card:hover p {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0);
+  transition: 0.5s ease-in-out;
+}
+.service a {
+  position: fixed;
+  bottom: 7px;
+  right: 6vw;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #000;
+}
+.service a i {
+  padding: 5px 7px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.service01 {
+  background: url("../img/service/service01.png") no-repeat center/cover;
+}
+
+.service02 {
+  background: url("../img/service/service02.png") no-repeat center/cover;
+}
+
+.service03 {
+  background: url("../img/service/service03.png") no-repeat center/cover;
+}
+
+.service04 {
+  background: url("../img/service/service04.png") no-repeat center/cover;
+}
+
+.service05 {
+  background: url("../img/service/service05.png") no-repeat center/cover;
+}
+
+.service06 {
+  background: url("../img/service/service06.png") no-repeat center/cover;
+}
+
+.service07 {
+  background: url("../img/service/service07.png") no-repeat center/cover;
+}
+
+.service08 {
+  background: url("../img/service/service08.png") no-repeat center/cover;
+}
+
+.service09 {
+  background: url("../img/service/service09.png") no-repeat center/cover;
+}
+
+.service10 {
+  background: url("../img/service/service10.png") no-repeat center/cover;
+}
+
+.service11 {
+  background: url("../img/service/service11.png") no-repeat center/cover;
+}
+
+.service12 {
+  background: url("../img/service/service12.png") no-repeat center/cover;
+}
+
+.service13 {
+  background: url("../img/service/service13.png") no-repeat center/cover;
+}
+
+.service14 {
+  background: url("../img/service/service14.png") no-repeat center/cover;
+}
+
+.service15 {
+  background: url("../img/service/service15.png") no-repeat center/cover;
+}
+
+.service16 {
+  background: url("../img/service/service16.png") no-repeat center/cover;
+}
+
+.service17 {
+  background: url("../img/service/service17.png") no-repeat center/cover;
+}
+
+.service18 {
+  background: url("../img/service/service18.png") no-repeat center/cover;
+}
+
+.service19 {
+  background: url("../img/service/service19.png") no-repeat center/cover;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -337,6 +337,14 @@
         p {
           text-align: justify;
         }
+        i , a {
+          color: var.$dark-bg;
+        }
+        a:hover {
+          span{
+           color: #033a7e;
+          }
+        }
         @media screen and (min-width: 1025px){
           h2 {
             font-size: 3.5rem;
@@ -389,6 +397,13 @@
 @media screen and(var.$max-res-tablet) {
   .details-body {
     border: none;
+  }
+}
+@media screen and (var.$res-phone) {
+  .details-container {
+    i, a {
+      display: none;
+    }
   }
 }
 

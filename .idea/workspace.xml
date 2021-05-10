@@ -1,7 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="880a51da-b0a9-4e49-b406-71ff9c82d4b2" name="Default Changelist" comment="" />
+    <list default="true" id="880a51da-b0a9-4e49-b406-71ff9c82d4b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/service/service01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/service/service02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/service/service03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/service/service04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/service/service05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/service/service06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/service/service07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/service/service08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/service/service09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/service/service10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/service/service11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/service/service12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/service/service13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/service/service14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/service/service15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/service/service16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/service/service17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/service/service18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/service/service19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/partials/service.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e1b891af0195ce1bd9d07c7e90a49c27c5cfd82" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e1b891af0195ce1bd9d07c7e90a49c27c5cfd82" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/5241d9b471113d772207a1f1f949222db9f9123e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/5241d9b471113d772207a1f1f949222db9f9123e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd9b3de726db0c7d04d2439a9a8aaaba92838bc6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd9b3de726db0c7d04d2439a9a8aaaba92838bc6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/service/pexels-brent-keane-1702373 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/service/pexels-caleb-oquendo-3038117.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/service/pexels-kristina-polianskaia-4241704.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/service/pexels-kristina-polianskaia-4241706.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/service/pexels-mat-brown-1395967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/service/pexels-olya-kobruseva-4545092.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/service/pexels-pixabay-265906(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/service/pexels-sourav-mishra-1231643 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/partials/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/partials/dark-nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/dark-nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/partials/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/service.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/service.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +79,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1s2G4nNZjRMBCyET7QXIg1xefQz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,6 +105,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\ors" />
+      <recent name="C:\wamp64\www\ors\assets\scss" />
       <recent name="C:\wamp64\www\ors\assets\scss\partials" />
       <recent name="C:\wamp64\www\ors\assets" />
     </key>
@@ -65,14 +132,30 @@
       <workItem from="1620063082998" duration="6388000" />
       <workItem from="1620114903197" duration="1804000" />
       <workItem from="1620134632874" duration="43923000" />
-      <workItem from="1620373797210" duration="126813000" />
+      <workItem from="1620373797210" duration="142791000" />
+      <workItem from="1620672433106" duration="14405000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620674981270">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620674981270" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1620286768419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
