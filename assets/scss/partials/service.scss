@@ -1,6 +1,6 @@
 @use "var.scss";
 
-
+/* Background Section */
 .service {
   height: 100%;
   background-image: -moz-linear-gradient(right, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 100%);
@@ -77,6 +77,11 @@
     }
   }
 }
+
+// ---------------------------------------------------------
+
+/* background Cards service */
+
 
 .service01 {
   background: url("../img/service/service01.png") no-repeat center/cover;

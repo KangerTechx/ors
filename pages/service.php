@@ -2,7 +2,7 @@
 <section class="service">
     <h2>Our Services</h2>
 
-    <!--  --GENERAL SERVICE--  -->
+    <!--  GENERAL SERVICE  -->
 
     <div class="serv-container">
         <h3>General services</h3>
@@ -24,7 +24,7 @@
 
     </div>
 
-    <!--  --WEDDING CLOTHES--  -->
+    <!--  WEDDING CLOTHES  -->
 
     <div class="serv-container">
         <h3>Our wedding clothes</h3>
@@ -51,7 +51,7 @@
 
     </div>
 
-    <!--  --WEDDING FOOD--  -->
+    <!--  WEDDING FOOD  -->
 
     <div class="serv-container">
         <h3>Our wedding food</h3>
@@ -66,7 +66,7 @@
         </div>
     </div>
 
-    <!--  --WEDDING LISING--  -->
+    <!--  WEDDING LISING  -->
 
     <div class="serv-container">
         <h3>Our Lising</h3>
@@ -88,7 +88,7 @@
 
     </div>
 
-    <!--  --WEDDING LISING--  -->
+    <!--  WEDDING LISING  -->
     <div class="serv-container">
         <h3>Our music groups</h3>
 
@@ -108,7 +108,7 @@
         </div>
     </div>
 
-    <!--  --WEDDING HONEYMOONS--  -->
+    <!--  WEDDING HONEYMOONS  -->
     <div class="serv-container">
         <h3>Our honeymoons</h3>
 
@@ -138,7 +138,7 @@
 
 
 
-<!-- --FULL DETAILS SERVICES-- -->
+<!-- FULL DETAILS SERVICES -->
 
 <!-- Ici je pleure encore plus de ne pas pouvoir faire du dynamique !  -->
 

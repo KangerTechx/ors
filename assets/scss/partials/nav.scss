@@ -5,9 +5,9 @@
 
 header {
   display: flex;
-  background-color: transparent;
   position: fixed;
   top: 0;
+  z-index: 5;
   .primary-logo {
     padding-left: 20px;
     width: 100px;

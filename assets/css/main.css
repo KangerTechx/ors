@@ -241,9 +241,9 @@
 /* header */
 header {
   display: flex;
-  background-color: transparent;
   position: fixed;
   top: 0;
+  z-index: 5;
 }
 header .primary-logo {
   padding-left: 20px;
@@ -1087,6 +1087,7 @@ button:hover {
     margin-right: 10%;
   }
 }
+/* Background Section */
 .service {
   height: 100%;
   background-image: -moz-linear-gradient(right, white 30%, rgba(255, 255, 255, 0) 100%);
@@ -1158,6 +1159,7 @@ button:hover {
   border-radius: 50%;
 }
 
+/* background Cards service */
 .service01 {
   background: url("../img/service/service01.png") no-repeat center/cover;
 }
@@ -1232,6 +1234,192 @@ button:hover {
 
 .service19 {
   background: url("../img/service/service19.png") no-repeat center/cover;
+}
+
+.header-bg {
+  background-color: rgba(24, 24, 24, 0.7);
+  width: 100vw;
+}
+
+/* Background Section gallery */
+.gallery {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.gallery:before {
+  content: "";
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: url("../img/gallery-phone.jpg") no-repeat right/cover;
+}
+@media screen and (min-width: 576px) {
+  .gallery:before {
+    background: url("../img/gallery.jpg") no-repeat right/cover;
+  }
+}
+.gallery h2 {
+  font-size: 2.8rem;
+  padding-left: 10vw;
+  padding-top: 10vh;
+  color: #fff;
+}
+
+/* Carousel Gallery */
+@media screen and (max-width: 575px) {
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  .gallery-container .years {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 7px 25px;
+  }
+  .gallery-container .years p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  .gallery-container .carousel-gallery {
+    display: flex;
+    width: 100vw;
+    margin-top: 35px;
+  }
+  .gallery-container .carousel-gallery .slider-gallery img {
+    width: 100%;
+    height: 100%;
+  }
+  .gallery-container .carousel-gallery .prev, .gallery-container .carousel-gallery .next {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    z-index: 1;
+  }
+  .gallery-container .carousel-gallery .prev:hover, .gallery-container .carousel-gallery .next:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .gallery-container .carousel-gallery .prev i, .gallery-container .carousel-gallery .next i {
+    margin: 0 5px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .gallery-container {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 150px;
+  }
+  .gallery-container .years {
+    display: flex;
+    padding: 3px 3px;
+  }
+  .gallery-container .years p {
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: #fff;
+    transform: rotate(-90deg);
+    align-self: center;
+    text-align: center;
+    width: 200px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 10px 0px;
+  }
+  .gallery-container .carousel-gallery {
+    display: flex;
+    justify-self: center;
+  }
+  .gallery-container .carousel-gallery .slider-gallery img {
+    width: 100%;
+    height: 100%;
+  }
+  .gallery-container .carousel-gallery .prev, .gallery-container .carousel-gallery .next {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    z-index: 1;
+  }
+  .gallery-container .carousel-gallery .prev:hover, .gallery-container .carousel-gallery .next:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .gallery-container .carousel-gallery .prev i, .gallery-container .carousel-gallery .next i {
+    margin: 0 5px;
+  }
+
+  .content-dot {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 30vw;
+  }
+  .content-dot .dot {
+    justify-self: flex-end;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .carousel-gallery {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .carousel-gallery {
+    width: 50%;
+  }
+}
+/* Background Section contact */
+.contact {
+  height: 100%;
+  background-image: -moz-linear-gradient(right, white 30%, rgba(255, 255, 255, 0) 100%);
+  background-image: -webkit-linear-gradient(left, white 30%, rgba(255, 255, 255, 0) 100%);
+  padding-bottom: 50px;
+}
+.contact:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  z-index: -1;
+  background: url("../img/contact.jpg") no-repeat top left/cover;
+  filter: grayscale(1);
+  opacity: 30%;
+}
+.contact h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  padding-top: 5vh;
+}
+
+@media screen and (min-width: 769px) {
+  .contact {
+    height: 100%;
+    background-image: -moz-linear-gradient(right, white 50%, rgba(255, 255, 255, 0) 100%);
+    background-image: -webkit-linear-gradient(left, white 50%, rgba(255, 255, 255, 0) 100%);
+    padding-bottom: 50px;
+  }
+  .contact:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50vw;
+    height: 100%;
+    z-index: -1;
+    background: url("../img/contact.jpg") no-repeat top right/cover;
+    filter: grayscale(1);
+    opacity: 30%;
+  }
+  .contact h2 {
+    text-align: left;
+    padding-left: 10vw;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

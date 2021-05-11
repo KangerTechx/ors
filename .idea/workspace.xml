@@ -20,48 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="880a51da-b0a9-4e49-b406-71ff9c82d4b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/service/service01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/service/service02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/service/service03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/service/service04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/service/service05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/service/service06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/service/service07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/service/service08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/service/service09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/service/service10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/service/service11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/service/service12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/service/service13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/service/service14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/service/service15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/service/service16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/service/service17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/service/service18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/service/service19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scss/partials/service.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e1b891af0195ce1bd9d07c7e90a49c27c5cfd82" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e1b891af0195ce1bd9d07c7e90a49c27c5cfd82" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/5241d9b471113d772207a1f1f949222db9f9123e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/5241d9b471113d772207a1f1f949222db9f9123e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd9b3de726db0c7d04d2439a9a8aaaba92838bc6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd9b3de726db0c7d04d2439a9a8aaaba92838bc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/glider.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/glider.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/service/pexels-brent-keane-1702373 (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/service/pexels-caleb-oquendo-3038117.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/service/pexels-kristina-polianskaia-4241704.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/service/pexels-kristina-polianskaia-4241706.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/service/pexels-mat-brown-1395967.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/service/pexels-olya-kobruseva-4545092.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/service/pexels-pixabay-265906(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/service/pexels-sourav-mishra-1231643 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/jonathan-borba-f5vaRrZuhp0-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/pexels-cottonbro-3951880.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/pexels-dimitri-kuliuk-1486101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/pexels-dimitri-kuliuk-1488312.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/pexels-igor-link-933118.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/pexels-jonathan-borba-3578784.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/pexels-oliver-li-6500535.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/pexels-rocsana-nicoleta-gurza-948185.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/pexels-sergio-souza-1779414.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/partials/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/partials/dark-nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/dark-nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/partials/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/partials/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/partials/service.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/service.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/partials/var.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/var.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/service.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/footer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +55,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -133,7 +114,7 @@
       <workItem from="1620114903197" duration="1804000" />
       <workItem from="1620134632874" duration="43923000" />
       <workItem from="1620373797210" duration="142791000" />
-      <workItem from="1620672433106" duration="14405000" />
+      <workItem from="1620672433106" duration="52197000" />
     </task>
     <servers />
   </component>
@@ -156,10 +137,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620674981270" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1620286768419">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1620719149025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620286768419" />
+    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620719149025" />
     <state x="794" y="443" key="NewPhpFileDialog" timestamp="1620063801281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
