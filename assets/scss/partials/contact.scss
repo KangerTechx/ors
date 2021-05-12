@@ -5,7 +5,7 @@
   height: 100%;
   background-image: -moz-linear-gradient(right, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 100%);
   background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 100%);
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 
   &:before {
     content: "";
@@ -19,36 +19,200 @@
     opacity: 30%;
   }
 
-
-  h2 {
-    font-size: 2.8rem;
-    text-align: center;
-    padding-top: 5vh;
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    h2 {
+      font-size: 2.8rem;
+      padding-top: 5vh;
+    }
   }
 }
 
+// --------------------------------------------------------------
+
+/* Contact Form */
+
+form {
+  width: 75%;
+  margin: 5%;
+  div {
+    display: flex;
+    margin-bottom:2rem;
+    input {
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+      color: var.$dark-bg;
+      padding-top: 2px;
+      border: none;
+      border-bottom: 1px solid var.$dark-bg;
+      outline: none;
+    }
+
+    label {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      pointer-events: none;
+      transform: translateY(-5px);
+      span {
+        position: absolute;
+        left: 5%;
+        transition: all 0.3s ease;
+      }
+    }
+    textarea {
+      padding: 5px;
+      background-color: transparent;
+      border: 1px solid var.$dark-bg;
+      color : var.$dark-bg;
+      width: 100%;
+      min-height: 150px;
+      resize: none;
+      transition: all 0.3s ease;
+      outline: none;
+      &:focus {
+        border: 3px solid var.$light-grey;
+      }
+    }
+  }
+}
+
+/* ANIMATION LABEL */
+
+input:focus + label span,
+input:valid + label span {
+  transform: translateY(-100%);
+  font-size: 0.9em;
+  color: var.$light-grey;
+}
+
+// -------------------------------------------------------------
+
+/* Contact Info */
+
+h3 {
+  width: 90vw;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.contact-info {
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+
+  .map {
+    background-color: rgba(195, 195, 195, 0.2);
+    iframe {
+      width: 90vw;
+      min-height: 250px;
+    }
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 35px;
+    i {
+      color: var.$dark-bg;
+      font-size: 1rem;
+      margin-bottom: 15px;
+      span {
+        margin-left: 15px;
+      }
+    }
+    a {
+      text-decoration: none;
+      color: var.$dark-bg;
+      margin-bottom: 10px;
+      span:hover {
+        color: #033a7e;
+      }
+    }
+    .link {
+      a {
+        i {
+          font-size: 1.2rem;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+// ----------------------------------------------------------------------
+
+/* Responsive */
+
 @media screen and (var.$res-desktop){
   .contact {
-    height: 100%;
     background-image: -moz-linear-gradient(right, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
     background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
-    padding-bottom: 50px;
 
     &:before {
-      content: "";
-      position: fixed;
-      top: 0;
       right: 0;
       width: 50vw;
-      height: 100%;
-      z-index: -1;
-      background: url("../img/contact.jpg") no-repeat top right/cover;
-      filter: grayscale(1);
-      opacity: 30%;
+      background-position: top right;
     }
-    h2 {
+
+    .title{
+      align-items: flex-start;
+      h2 {
+        text-align: left;
+        padding-left: 10vw;
+      }
+      img {
+        padding-left: 9.5vw;
+      }
+    }
+    form {
+      width: 40%;
+      margin-left: 10%;
+      input {
+        width: 80%;
+      }
+      label {
+        margin-left:8%;
+        width: 40%;
+      }
+    }
+
+    h3 {
       text-align: left;
       padding-left: 10vw;
+    }
+
+    .map {
+      width: 98%;
+      iframe {
+        padding: 20px;
+        width: 88vw;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-info {
+    display: flex;
+    width: 85vw;
+    margin-left: 10vw;
+
+    .map {
+      width: 59%;
+      iframe {
+        width: 50vw;
+      }
     }
   }
 }

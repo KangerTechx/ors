@@ -50,15 +50,15 @@
 
             <div class="slider-gallery glider glider1">
                 <div>
-                    <img src="assets/img/gallery/gallery04.jpg" alt="marriage-covid">
+                    <img src="assets/img/gallery/gallery04.jpg" alt="couple">
                 </div>
 
                 <div>
-                    <img src="assets/img/gallery/gallery05.jpg" alt="Marriage-paris">
+                    <img src="assets/img/gallery/gallery05.jpg" alt="temoin">
                 </div>
 
                 <div>
-                    <img src="assets/img/gallery/gallery06.jpg" alt="bouquet">
+                    <img src="assets/img/gallery/gallery06.jpg" alt="couple">
                 </div>
             </div>
 
@@ -85,7 +85,7 @@
 
             <div class="slider-gallery glider glider2">
                 <div>
-                    <img src="assets/img/gallery/gallery07.jpg" alt="marriage-covid">
+                    <img src="assets/img/gallery/gallery07.jpg" alt="couple-foret">
                 </div>
 
                 <div>
@@ -93,7 +93,7 @@
                 </div>
 
                 <div>
-                    <img src="assets/img/gallery/gallery09.jpg" alt="bouquet">
+                    <img src="assets/img/gallery/gallery09.jpg" alt="marriage">
                 </div>
             </div>
 

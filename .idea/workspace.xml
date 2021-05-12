@@ -21,28 +21,15 @@
   <component name="ChangeListManager">
     <list default="true" id="880a51da-b0a9-4e49-b406-71ff9c82d4b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/glider.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/glider.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/gallery/jonathan-borba-f5vaRrZuhp0-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/gallery/pexels-cottonbro-3951880.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/gallery/pexels-dimitri-kuliuk-1486101.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/gallery/pexels-dimitri-kuliuk-1488312.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/gallery/pexels-igor-link-933118.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/gallery/pexels-jonathan-borba-3578784.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/gallery/pexels-oliver-li-6500535.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/gallery/pexels-rocsana-nicoleta-gurza-948185.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/gallery/pexels-sergio-souza-1779414.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/décoration.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/decoration.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/partials/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/partials/gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/partials/generals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/generals.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/partials/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/partials/service.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/service.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/partials/var.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/var.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/service.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/service.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/footer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +101,7 @@
       <workItem from="1620114903197" duration="1804000" />
       <workItem from="1620134632874" duration="43923000" />
       <workItem from="1620373797210" duration="142791000" />
-      <workItem from="1620672433106" duration="52197000" />
+      <workItem from="1620672433106" duration="69139000" />
     </task>
     <servers />
   </component>

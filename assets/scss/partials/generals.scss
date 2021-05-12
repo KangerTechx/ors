@@ -51,3 +51,16 @@ button {
     font-weight: 300;
   }
 }
+
+.dark-btn {
+  font-size: 1rem;
+  font-weight: 100;
+  color: var.$dark-bg;
+  padding: 5px 20px;
+  border: 1px solid var.$dark-bg;
+  border-radius: 8px;
+  background-color: transparent;
+  &:hover {
+    font-weight: 300;
+  }
+}

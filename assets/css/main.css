@@ -243,7 +243,7 @@ header {
   display: flex;
   position: fixed;
   top: 0;
-  z-index: 5;
+  z-index: 3;
 }
 header .primary-logo {
   padding-left: 20px;
@@ -506,6 +506,19 @@ button:hover {
   background-color: transparent;
 }
 .btn:hover {
+  font-weight: 300;
+}
+
+.dark-btn {
+  font-size: 1rem;
+  font-weight: 100;
+  color: #181818;
+  padding: 5px 20px;
+  border: 1px solid #181818;
+  border-radius: 8px;
+  background-color: transparent;
+}
+.dark-btn:hover {
   font-weight: 300;
 }
 
@@ -1251,7 +1264,7 @@ button:hover {
 .gallery:before {
   content: "";
   position: fixed;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   z-index: -1;
   background: url("../img/gallery-phone.jpg") no-repeat right/cover;
@@ -1289,7 +1302,7 @@ button:hover {
   }
   .gallery-container .carousel-gallery {
     display: flex;
-    width: 100vw;
+    width: 100%;
     margin-top: 35px;
   }
   .gallery-container .carousel-gallery .slider-gallery img {
@@ -1378,7 +1391,7 @@ button:hover {
   height: 100%;
   background-image: -moz-linear-gradient(right, white 30%, rgba(255, 255, 255, 0) 100%);
   background-image: -webkit-linear-gradient(left, white 30%, rgba(255, 255, 255, 0) 100%);
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 .contact:before {
   content: "";
@@ -1391,34 +1404,173 @@ button:hover {
   filter: grayscale(1);
   opacity: 30%;
 }
-.contact h2 {
+.contact .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.contact .title h2 {
   font-size: 2.8rem;
-  text-align: center;
   padding-top: 5vh;
 }
 
+/* Contact Form */
+form {
+  width: 75%;
+  margin: 5%;
+}
+form div {
+  display: flex;
+  margin-bottom: 2rem;
+}
+form div input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: #181818;
+  padding-top: 2px;
+  border: none;
+  border-bottom: 1px solid #181818;
+  outline: none;
+}
+form div label {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  transform: translateY(-5px);
+}
+form div label span {
+  position: absolute;
+  left: 5%;
+  transition: all 0.3s ease;
+}
+form div textarea {
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid #181818;
+  color: #181818;
+  width: 100%;
+  min-height: 150px;
+  resize: none;
+  transition: all 0.3s ease;
+  outline: none;
+}
+form div textarea:focus {
+  border: 3px solid #c3c3c3;
+}
+
+/* ANIMATION LABEL */
+input:focus + label span,
+input:valid + label span {
+  transform: translateY(-100%);
+  font-size: 0.9em;
+  color: #c3c3c3;
+}
+
+/* Contact Info */
+h3 {
+  width: 90vw;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.contact-info {
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.contact-info .map {
+  background-color: rgba(195, 195, 195, 0.2);
+}
+.contact-info .map iframe {
+  width: 90vw;
+  min-height: 250px;
+}
+.contact-info .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+  margin-top: 35px;
+}
+.contact-info .info i {
+  color: #181818;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+.contact-info .info i span {
+  margin-left: 15px;
+}
+.contact-info .info a {
+  text-decoration: none;
+  color: #181818;
+  margin-bottom: 10px;
+}
+.contact-info .info a span:hover {
+  color: #033a7e;
+}
+.contact-info .info .link a i {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+/* Responsive */
 @media screen and (min-width: 769px) {
   .contact {
-    height: 100%;
     background-image: -moz-linear-gradient(right, white 50%, rgba(255, 255, 255, 0) 100%);
     background-image: -webkit-linear-gradient(left, white 50%, rgba(255, 255, 255, 0) 100%);
-    padding-bottom: 50px;
   }
   .contact:before {
-    content: "";
-    position: fixed;
-    top: 0;
     right: 0;
     width: 50vw;
-    height: 100%;
-    z-index: -1;
-    background: url("../img/contact.jpg") no-repeat top right/cover;
-    filter: grayscale(1);
-    opacity: 30%;
+    background-position: top right;
   }
-  .contact h2 {
+  .contact .title {
+    align-items: flex-start;
+  }
+  .contact .title h2 {
     text-align: left;
     padding-left: 10vw;
+  }
+  .contact .title img {
+    padding-left: 9.5vw;
+  }
+  .contact form {
+    width: 40%;
+    margin-left: 10%;
+  }
+  .contact form input {
+    width: 80%;
+  }
+  .contact form label {
+    margin-left: 8%;
+    width: 40%;
+  }
+  .contact h3 {
+    text-align: left;
+    padding-left: 10vw;
+  }
+  .contact .map {
+    width: 98%;
+  }
+  .contact .map iframe {
+    padding: 20px;
+    width: 88vw;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .contact-info {
+    display: flex;
+    width: 85vw;
+    margin-left: 10vw;
+  }
+  .contact-info .map {
+    width: 59%;
+  }
+  .contact-info .map iframe {
+    width: 50vw;
   }
 }
 
