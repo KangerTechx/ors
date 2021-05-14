@@ -11,7 +11,7 @@ new Glider(document.querySelector('.glider'), {
     }
 });
 
-/* Carousel  */
+/* Carousel 2 */
 
 new Glider(document.querySelector('.glider1'), {
     slidesToShow: 1,

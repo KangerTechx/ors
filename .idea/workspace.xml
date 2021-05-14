@@ -16,19 +16,38 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="880a51da-b0a9-4e49-b406-71ff9c82d4b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e1b891af0195ce1bd9d07c7e90a49c27c5cfd82" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e1b891af0195ce1bd9d07c7e90a49c27c5cfd82" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38d0f863d973870792ddbb2108bdca81d8f1dfd8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38d0f863d973870792ddbb2108bdca81d8f1dfd8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/5241d9b471113d772207a1f1f949222db9f9123e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/5241d9b471113d772207a1f1f949222db9f9123e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c91e15b85a3870b513f74828efe74d06c017753" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c91e15b85a3870b513f74828efe74d06c017753" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd9b3de726db0c7d04d2439a9a8aaaba92838bc6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd9b3de726db0c7d04d2439a9a8aaaba92838bc6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd9cf5455815697135e00387ea9fa8ed70abc468" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd9cf5455815697135e00387ea9fa8ed70abc468" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/décoration.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/decoration.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/gallery04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/gallery/gallery04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/gallery05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/gallery/gallery05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/gallery06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/gallery/gallery06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/gallery07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/gallery/gallery07.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/gallery08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/gallery/gallery08.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gallery/gallery09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/gallery/gallery09.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/gallery-carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/gallery-carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/partials/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/about.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/partials/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/contact.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/partials/gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/gallery.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/partials/generals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/generals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/partials/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/partials/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/partials/home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +120,9 @@
       <workItem from="1620114903197" duration="1804000" />
       <workItem from="1620134632874" duration="43923000" />
       <workItem from="1620373797210" duration="142791000" />
-      <workItem from="1620672433106" duration="69139000" />
+      <workItem from="1620672433106" duration="69342000" />
+      <workItem from="1620831661180" duration="78000" />
+      <workItem from="1620971411504" duration="14961000" />
     </task>
     <servers />
   </component>
@@ -113,11 +134,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620674981270">

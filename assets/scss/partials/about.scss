@@ -28,6 +28,33 @@
   }
 }
 
+/* Responsive */
+
+@media screen and (var.$res-phone) {
+
+  .banner {
+    height: 10vh;
+  }
+}
+
+@media screen and (var.$max-res-tablet) {
+
+  .banner {
+    height: 15vh;
+  }
+}
+
+@media screen and (var.$res-desktop) {
+
+  .banner {
+    height: 20vh;
+    background-position: bottom;
+    ul {
+      margin-bottom: 20px;
+    }
+  }
+}
+
 // -------------------------------------------------------------
 
 /* About us */
@@ -164,32 +191,6 @@
 
 // ---------------------------------------------------------------
 
-/* Responsive */
-
-@media screen and (var.$res-phone) {
-
-  .banner {
-    height: 10vh;
-  }
-}
-
-@media screen and (var.$max-res-tablet) {
-
-  .banner {
-    height: 15vh;
-  }
-}
-
-@media screen and (var.$res-desktop) {
-
-  .banner {
-    height: 20vh;
-    background-position: bottom;
-    ul {
-      margin-bottom: 20px;
-    }
-  }
-}
 
   /* About us */
   .about {

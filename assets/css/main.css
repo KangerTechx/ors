@@ -663,6 +663,7 @@ button:hover {
   opacity: 0;
 }
 .carousels-content .slide {
+  overflow: hidden;
   display: flex;
 }
 .carousels-content .slide .card {
@@ -897,6 +898,26 @@ button:hover {
   padding: 0 10px;
 }
 
+/* Responsive */
+@media screen and (max-width: 575px) {
+  .banner {
+    height: 10vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner {
+    height: 15vh;
+  }
+}
+@media screen and (min-width: 769px) {
+  .banner {
+    height: 20vh;
+    background-position: bottom;
+  }
+  .banner ul {
+    margin-bottom: 20px;
+  }
+}
 /* About us */
 .about {
   margin: 0 5vw;
@@ -1000,26 +1021,6 @@ button:hover {
   text-align: justify;
 }
 
-/* Responsive */
-@media screen and (max-width: 575px) {
-  .banner {
-    height: 10vh;
-  }
-}
-@media screen and (max-width: 768px) {
-  .banner {
-    height: 15vh;
-  }
-}
-@media screen and (min-width: 769px) {
-  .banner {
-    height: 20vh;
-    background-position: bottom;
-  }
-  .banner ul {
-    margin-bottom: 20px;
-  }
-}
 /* About us */
 .about {
   padding: 0 20px;
@@ -1303,11 +1304,16 @@ button:hover {
   .gallery-container .carousel-gallery {
     display: flex;
     width: 100%;
+    height: auto;
     margin-top: 35px;
+  }
+  .gallery-container .carousel-gallery .slider-gallery {
+    display: flex;
+    overflow: hidden;
   }
   .gallery-container .carousel-gallery .slider-gallery img {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
   .gallery-container .carousel-gallery .prev, .gallery-container .carousel-gallery .next {
     display: flex;
@@ -1350,6 +1356,10 @@ button:hover {
     display: flex;
     justify-self: center;
   }
+  .gallery-container .carousel-gallery .slider-gallery {
+    display: flex;
+    overflow: hidden;
+  }
   .gallery-container .carousel-gallery .slider-gallery img {
     width: 100%;
     height: 100%;
@@ -1361,7 +1371,7 @@ button:hover {
     z-index: 1;
   }
   .gallery-container .carousel-gallery .prev:hover, .gallery-container .carousel-gallery .next:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
   }
   .gallery-container .carousel-gallery .prev i, .gallery-container .carousel-gallery .next i {
     margin: 0 5px;
@@ -1388,6 +1398,8 @@ button:hover {
 }
 /* Background Section contact */
 .contact {
+  display: flex;
+  flex-direction: column;
   height: 100%;
   background-image: -moz-linear-gradient(right, white 30%, rgba(255, 255, 255, 0) 100%);
   background-image: -webkit-linear-gradient(left, white 30%, rgba(255, 255, 255, 0) 100%);
@@ -1417,8 +1429,10 @@ button:hover {
 
 /* Contact Form */
 form {
+  text-align: center;
   width: 75%;
   margin: 5%;
+  align-self: center;
 }
 form div {
   display: flex;
@@ -1436,7 +1450,7 @@ form div input {
 }
 form div label {
   position: absolute;
-  left: 0;
+  left: 7%;
   width: 100%;
   pointer-events: none;
   transform: translateY(-5px);
@@ -1469,8 +1483,15 @@ input:valid + label span {
   color: #c3c3c3;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s;
+}
+
 /* Contact Info */
-h3 {
+.contact h3 {
   width: 90vw;
   text-align: center;
   padding: 80px 0;
@@ -1538,6 +1559,8 @@ h3 {
     padding-left: 9.5vw;
   }
   .contact form {
+    align-self: flex-start;
+    text-align: left;
     width: 40%;
     margin-left: 10%;
   }
@@ -1545,6 +1568,7 @@ h3 {
     width: 80%;
   }
   .contact form label {
+    left: 0;
     margin-left: 8%;
     width: 40%;
   }

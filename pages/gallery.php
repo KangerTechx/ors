@@ -1,6 +1,8 @@
 <section class="gallery">
     <h2>Our Gallery</h2>
 
+    <!--  Carousel 01  -->
+
     <div class="gallery-container">
         <div class="years">
             <p>2020 - 2021</p>
@@ -36,6 +38,7 @@
         <div class="dot" id="dots"></div>
     </div>
 
+    <!--  Carousel 02  -->
 
     <div class="gallery-container">
         <div class="years">
@@ -71,6 +74,8 @@
     <div class="content-dot">
         <div class="dot" id="dots1"></div>
     </div>
+
+    <!--  Carousel 03  -->
 
     <div class="gallery-container">
         <div class="years">
